@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>Realtime Filter  Webapp using PoseNet Neural Network</title>
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+      
+          <link rel="stylesheet" type="text/css" href="style.css">
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+      </head>
+      <body id="body">
+        <center>
+            <h3 class="btn btn-danger" id="header">Moustache Filterer</h3>
+            <br>
+            <br>
+            <button class="btn" id="click" onclick="takeSnap()">Take Snapshot</button>
+            <div id="needstobeSpaced">
+             <!-- <a href="mailto:shauryagarg3374@gmail.com?Subject=Greetings! Get moustaches like me! -->
+              <!-- <button id="inviter">Invite Your Friends to Have Moustaches!</button></a>-->
+              <button class="btn btn-danger" onclick="relocate()">Click to see my pictures!!!</button>
+                <marquee id="myMarquee">
+                    <h3 id="text_in_marquee">This filter app is made by professional artist Shaurya Garg</h3>
+                </marquee>
+            </div>
+            <script src="main.js"></script>
+        </center>
+      </body>
+      <!--what happens if you put script tag in div?-->
+</html>

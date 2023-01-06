@@ -1,0 +1,49 @@
+#header{
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    border: red 1px dashed;
+}
+#click{
+    background-color: aqua;
+    /*margin-top: 4px;*/
+}
+#click :hover{
+    background-color: chartreuse;
+    border: dashed 2px red;
+}
+#body{
+    background-image: url("dynamic-blue-purple-light-curves-850e4ovvlkkmva1i-850e4ovvlkkmva1i.jpg");
+}
+canvas{
+    animation-name: filter;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes filter{
+    from{
+        box-shadow: 1px 1px 36px chartreuse;
+    }
+    to{
+        box-shadow: 1px 1px 36px red;
+    }
+}
+#inviter{
+    background-color: transparent;
+    color: aquamarine;
+    font-size: 20px;
+    font-style: italic;
+}
+#myMarquee{
+    background-color: aqua;
+    height: 30px;
+}
+#needstobeSpaced{
+    margin-top: 350px;
+}
+#text_in_marquee{
+    font-style: italic;
+    font-size: 10px;
+    margin-top: 15px;
+}
+/*text-align: center; in marquee?*/
